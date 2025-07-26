@@ -5,7 +5,7 @@ function Perfil() {
   return (
     <section id="perfil" className="text-center my-5">
       <div className="container">
-        <div className="card mx-auto shadow" style={{ maxWidth: "400px" }}>
+        <div className="card mx-auto shadow" style={{ background: "rgba(38, 222, 129, 0.2)", border: "none" }}>
           <div className="card-body">
             <img 
               src={foto}

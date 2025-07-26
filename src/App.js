@@ -10,6 +10,9 @@ import Portafolio from './components/Portafolio';
 import Navbar from './components/Navbar';
 import Perfil from './components/Perfil';
 
+// ¡¡¡AÑADE ESTA LÍNEA AQUÍ!!! (Si no la habías añadido ya)
+import './App.css'; 
+
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -26,9 +29,11 @@ function App() {
       {loading ? (
         <Loader />
       ) : (
-        <div>
+        // ¡¡¡CAMBIA ESTE DIV PARA AÑADIR LA CLASE main-content-wrapper!!!
+        <div className="main-content-wrapper"> 
           <Navbar />
-          <div className="container mt-4">
+          {/* El div con className="container mt-4" */}
+          <div className="container mt-4"> 
             <Perfil />
             <InformacionPersonal />
             <Formacion />

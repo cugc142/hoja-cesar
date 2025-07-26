@@ -10,7 +10,7 @@ function Habilidades() {
         <div className="row">
           {habilidades.map((habilidad, index) => (
             <div key={index} className="col-md-4 mb-3">
-              <div className="card text-center">
+              <div className="card text-center" style={{ background: "rgba(13, 248, 130, 0.2)", border: "none" }}>
                 <div className="card-body">
                   <p className="card-text">{habilidad}</p>
                 </div>

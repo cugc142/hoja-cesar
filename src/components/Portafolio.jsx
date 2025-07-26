@@ -9,7 +9,7 @@ function Portafolio() {
           <div className="card-body">
             <h5 className="card-title">ProyectoWeb</h5>
             <p className="card-text">Página web personal desarrollada como práctica universitaria aplicando React y diseño responsivo.</p>
-           <a href="https://github.com/cugc142/hoja-cesar.git" className="btn" style={{ backgroundColor: '#26de81', color: 'white' }} target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
+           <a href="https://github.com/cugc142" className="btn" style={{ backgroundColor: '#34495e', color: 'white' }} target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
           </div>
         </div>
       </div>
