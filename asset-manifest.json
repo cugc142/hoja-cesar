@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/hoja-cesar/static/css/main.5046bafc.css",
+    "main.js": "/hoja-cesar/static/js/main.d7b3e730.js",
+    "static/media/foto.jpg": "/hoja-cesar/static/media/foto.99f9935fd83b44d1595c.jpg",
+    "index.html": "/hoja-cesar/index.html",
+    "main.5046bafc.css.map": "/hoja-cesar/static/css/main.5046bafc.css.map",
+    "main.d7b3e730.js.map": "/hoja-cesar/static/js/main.d7b3e730.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5046bafc.css",
+    "static/js/main.d7b3e730.js"
+  ]
+}
